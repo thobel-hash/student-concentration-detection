@@ -1,0 +1,49 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Dataset folders and large data files
+data/
+datasets/
+raw_data/
+processed_data/
+*.npy
+*.npz
+*.zip
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# CMOSE metadata and extracted feature files
+finaldata1.json
+secondFeature/
+secondFeature.zip
+*.csv
+
+# Trained model files
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+
+# Logs and temporary outputs
+logs/
+tmp/
+temp/
